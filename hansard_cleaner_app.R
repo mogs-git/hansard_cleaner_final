@@ -5,12 +5,13 @@ ui <- fluidPage(
   
   # Application title
   titlePanel("Tidy HansaRd"),
+  h3("An app to tidy (House of Lords) Hansards"),
   p("Download text files from the Hansard website, then upload them here and they will automatically be tidied for analysis."),
-  a("Example Hansard", href="https://hansard.parliament.uk/lords/2017-03-01/debates/EE9DF3A9-2E05-4568-8CF8-A61F11172391/EuropeanUnion(NotificationOfWithdrawal)Bill"),
-  p("You can upload multiple files, and when you click download these will be downlaoded as zipped CSVs."),
+  a("Example Hansard (download the txt file)", href="https://hansard.parliament.uk/lords/2017-03-01/debates/EE9DF3A9-2E05-4568-8CF8-A61F11172391/EuropeanUnion(NotificationOfWithdrawal)Bill"),
+  p("You can upload multiple files, and when you click download these will be downloaded as zipped CSVs."),
   p("Be sure to check out the R script working behind the scenes if you'd like more control."),
-  a("R script", href="https://hansard.parliament.uk/lords/2017-03-01/debates/EE9DF3A9-2E05-4568-8CF8-A61F11172391/EuropeanUnion(NotificationOfWithdrawal)Bill")
-  
+  a("R script", href="https://github.com/mogs-git/hansard_cleaner_final/tree/master/cleaning_script"),
+  p("This app was created by Matt Chaib (www.mattchaib.com)"),
   
   # Sidebar with a slider input for number of bins 
   fluidRow(

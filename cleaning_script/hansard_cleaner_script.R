@@ -1,3 +1,5 @@
+# Hansard cleaner script created by Matt Chaib (mattchaib.com)
+
 # FUNCTIONS ---------------------------------------------------------------
 
 create_header_table <- function(hansard_plaintext) {
